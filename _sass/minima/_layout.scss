@@ -3,12 +3,23 @@
  */
 .site-header {
   border-top: 5px solid #524366;
-  border-bottom: 1px solid $grey-color-light;
-  background-color: $grey-color-dark;
+  background: 1px solid $grey-color-light;
+  color: $grey-color-dark;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+
+  }
+
+  .tabs {
+    color: 1px solid $grey-color-light;
+    background-color: $grey-color-dark;
+  }
 }
 
 .site-title {
@@ -30,11 +41,13 @@
 }
 
 .site-nav {
-  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -190,7 +203,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  // padding: $spacing-unit 0;
 }
 
 .page-heading {
