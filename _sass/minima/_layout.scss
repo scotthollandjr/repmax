@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid #524366;
+  border-top: 7px solid #ff902a;
   background: 1px solid $grey-color-light;
   color: $grey-color-dark;
   min-height: $spacing-unit * 1.865;
@@ -13,7 +13,7 @@
   flex-direction: column;
 
   .logo {
-
+    background: #7f8bc7;
   }
 
   .tabs {

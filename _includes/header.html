@@ -1,15 +1,16 @@
 <header class="site-header" role="banner">
 
   <div class="logo">
-    <div class="wrapper">
+    <div class="wrapper top-row">
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
       <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <div class="right-row"></div>
     </div>
   </div>
 
   <div class="tabs">
-    <div class="wrapper">
+    <div class="wrapper bottom-row">
       {% if page_paths %}
         <nav class="site-nav">
           <div class="trigger">
