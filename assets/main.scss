@@ -21,8 +21,20 @@
       max-width: 500px;
       height: 50px;
       border-radius: 0 0 7px 7px;
-      // max-width: 800px;
       background: $grey-color-dark;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      .fa {
+        padding: 4px 2px;
+        font-size: 30pt;
+        color: #fff;
+
+        &:last-child {
+          padding-right: 8px;
+        }
+      }
     }
 
     @media (max-width: 600px) {
@@ -55,7 +67,7 @@
   }
 
   .video-overlay {
-    background: rgba(29,46,65,.4);
+    background: rgba(29,46,65,.5);
     // background: radial-gradient(#333 50%, #222 60%, #111 70%, #000 80%);
   }
 

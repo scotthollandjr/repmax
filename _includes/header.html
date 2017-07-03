@@ -5,7 +5,11 @@
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
       <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      <div class="right-row"></div>
+      <div class="right-row">
+        <a href="#"><i class="fa fa-facebook-square"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter-square"></i></a>
+      </div>
     </div>
   </div>
 
