@@ -215,7 +215,45 @@
   list-style: none;
 
   > li {
+    display: flex;
+    flex-direction: column;
     margin-bottom: $spacing-unit;
+
+    .post-image {
+      margin: 0 auto;
+    }
+
+    .post-content {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .col-one {
+      width: 25%;
+    }
+
+    .col-two {
+      width: 75%;
+
+      p {
+        @include relative-font-size(1.2);
+      }
+    }
+
+    .post-title a {
+      font-size: 2em;
+      color: #000;
+      font-weight: 400;
+      text-decoration: none;
+      text-transform: uppercase;
+      @include relative-font-size(1.8);
+    }
+
+    .post-date {
+      color: #444;
+      font-weight: 300;
+      @include relative-font-size(1.2);
+    }
   }
 }
 
@@ -226,7 +264,6 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
 }
 
 
