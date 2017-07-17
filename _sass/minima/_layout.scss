@@ -216,15 +216,25 @@
   list-style: none;
 
   > li {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     margin-bottom: $spacing-unit;
 
     .post-image {
-      margin: 0 auto;
+      max-height: 300px;
+      border-bottom: 1px solid #8893c8;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
     }
 
     .post-content {
+      padding-top: 35px;
+      padding-bottom: 25px;
       display: flex;
       flex-direction: row;
     }
@@ -234,7 +244,10 @@
     }
 
     .col-two {
+      align-self: center;
+      padding-left: 40px;
       width: 75%;
+      text-align: justify;
 
       p {
         @include relative-font-size(1.2);
