@@ -4,11 +4,24 @@
     <div class="wrapper top-row">
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
-      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <div>
+        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      </div>
       <div class="right-row">
-        <a href="#"><i class="fa fa-facebook-square"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-twitter-square"></i></a>
+        <div class="top-right">
+          <div class="left">
+            <a href="#"><i class="fa fa-envelope"></i></a>
+          </div>
+          <div class="right">
+            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter-square"></i></a>
+          </div>
+        </div>
+        <div class="bottom-right">
+          <i class="fa fa-phone"></i>
+          <a href="#">(951) 809-5556</a>
+        </div>
       </div>
     </div>
   </div>

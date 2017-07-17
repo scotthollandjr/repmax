@@ -24,19 +24,19 @@
 
 .site-title {
   text-decoration: none;
-  @include relative-font-size(1.625);
-  font-weight: 300;
+  @include relative-font-size(2);
+  font-weight: 600;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  color: #7f8bc7;
+  padding-top: 10px;
 
   &,
-  &:visited {
-    color: $grey-color-light;
-  }
   &:hover {
-    color: #aeaeae;
+    text-decoration: none;
+    color: #8893c8;
   }
 }
 
