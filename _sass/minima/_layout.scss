@@ -285,6 +285,18 @@
 /**
  * Posts
  */
+.post-image {
+  max-height: 300px;
+  border-bottom: 1px solid #8893c8;
+  overflow: hidden;
+  margin: 25px 0;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 .post-header {
   margin-bottom: $spacing-unit;
 }
