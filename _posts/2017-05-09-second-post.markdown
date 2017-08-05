@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Et Lorem aliqua aliquip mollit et duis fugiat"
+title:  "5 Typical Deadlift Mistakes You Might Be Making"
 date:   2017-05-09 22:27:58 -0700
 categories: training
 image: "https://www.bodybuilding.com/images/2016/june/8-benefits-to-working-out-in-the-morning-header-v2-830x467.jpg"
-preview: "Et Lorem aliqua aliquip mollit et duis fugiat. Excepteur veniam eu officia eiusmod commodo eu proident enim. Mollit consectetur ullamco ullamco, jabronies. Nulla officia magna consectetur laboris nostrud labore in duis commodo sunt commodo non proident qui elit enim qui."
+preview: "I love deadlift day. I’m sure you do, too. That’s why I thought to talk to you about fixing 5 typical deadlift mistakes you might be making. It is by far my favorite day of the week. It is a great lift and one of the best lifts you can perform for the posterior chain and overall muscular and strength development."
 ---
 
 Mollit consectetur ullamco ullamco adipisicing Lorem dolor quis sint deserunt ex consectetur irure est. Commodo exercitation qui eu exercitation minim aliqua reprehenderit enim esse. Lorem esse consectetur pariatur eiusmod ipsum amet ullamco ipsum magna enim enim. Excepteur veniam eu officia eiusmod commodo eu proident enim.
