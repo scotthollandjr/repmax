@@ -11,18 +11,27 @@
     padding-left: 20px;
     max-width: 1200px;
   }
+
+  .nav-image {
+    width: 300px;
+    height: 100px;
+    background-image: url("../assets/img/repmax2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
   .top-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 80px;
+    height: 125px;
 
     .right-row {
       width: 50%;
       max-width: 500px;
 
       .top-right {
-        height: 45px;
+        height: 60px;
         border-radius: 0 0 7px 7px;
         background: $grey-color-dark;
         display: flex;
@@ -46,7 +55,7 @@
         .fa {
           padding: 4px;
           padding-top: 6px;
-          font-size: 25pt;
+          font-size: 35pt;
           color: #fff;
 
           &.fa-envelope {
